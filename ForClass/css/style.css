@@ -1,0 +1,56 @@
+/* This will grab all the h1 tags */
+h1
+{
+  color: white;
+  font-family: "Bebas Neue";
+}
+/* this is class */
+.container
+{
+  margin: auto;
+  padding: 20px;
+  background-color: rgb(176, 159, 190);
+  width:50%;
+  box-shadow:5px 10px 10px 10px rgb(105, 56, 148);
+  border-radius:20px;
+}
+
+
+.sidebar {
+  float:left;
+  margin-left: 20px;
+  padding: 20px;
+  background-color: rgb(176, 159, 190);
+  width:10%;
+  box-shadow:5px 10px 10px 10px rgb(105, 56, 148);
+  border-radius:20px;
+}
+
+.navigation {
+  display:table;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.horizontaLine {
+  padding-top: 20px;
+}
+.horizontaLine li {
+  display: inline;
+  margin: 20px;
+  padding: 20px 60px 20px 60px;
+  background-color: white;
+  width: 10%;
+}
+
+.horizontaLine li a:hover {
+  color:red;
+  text-decoration: none;
+}
+/* This is a id */
+#dog
+{
+  background-color: pink;
+  width:80%;
+}

@@ -1,0 +1,88 @@
+h1
+{
+  color:white;
+  background-color: rgb(171, 110, 143);
+  font-family: "Bebas Neue";
+  font-size: 40px;
+  border-radius:10px;
+
+}
+h2
+{
+color:white;
+font-family: "trebuchet MS";
+font-size: 22px;
+border-radius:5px;
+}
+/* this is class */
+.container
+{
+  margin: auto;
+  padding: 50px;
+  background-color: white;
+  width:60%;
+  box-shadow:5px 20px 30px 30px rgb(171, 110, 143);
+  border-radius:20px;
+}
+
+.container h1{
+  font-size: 4em;
+}
+
+.sidebar {
+position: fixed;
+  float:left;
+  color: white;
+  margin-left: 0px;
+  padding: 8px;
+  background-color: rgb(171, 110, 143);
+  width:11%;
+  height: 100%;
+  border-radius:15px;
+}
+
+.navigation {
+  display:table;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+
+
+.wrapper a{
+text-decoration:none;
+}
+.wrapper a:hover {
+  background: rgb(171, 110, 143);
+}
+.wrapper a:active {
+  background:rgb(171, 110, 143);
+}
+
+
+table{
+  width:400px;
+  /* border-spacing:40px; */
+}
+ th{
+   text-align:left;
+ }
+
+ table, th, td {
+   border: 1px solid #000;
+   border-collapse: collapse;
+ }
+
+th, td {
+  padding:10px;
+ }
+
+
+/* This is a id */
+#dog
+{
+  background-color: pink;
+  width:80%;
+}
