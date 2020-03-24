@@ -1,0 +1,147 @@
+body
+{
+  margin: 0px;
+  background-color: #303030;
+}
+
+hr
+{
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+
+.header
+{
+  height: 10vh;
+  width: 100%;
+  background-color: rgb(42, 42, 42, .7);
+  position: fixed;
+  top: 0px;
+  z-index: 1000;
+}
+.header h1
+{
+    width: 50%;
+    margin: 0px;
+    left: 5%;
+    top: 25%;
+    position: relative;
+    color: white;
+    font-family: 'Bebas Neue';
+}
+.header ul
+{
+  float: right;
+  width: 40%;
+  list-style-type: none;
+  margin-top: -30px;
+}
+.header nav ul li
+{
+  margin: 10px;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+.header nav ul li a
+{
+  color: white;
+  text-decoration: none;
+}
+
+.parallax
+{
+  margin-top: 10vh;
+  height: 70vh;
+  position: relative;
+  background-image: url("../img/landscape.jpg");
+  background-size: auto;
+  background-attachment: fixed;
+  background-position: top center;
+}
+
+.parallax h2
+{
+  margin: auto;
+  padding-top: 50%;
+  text-align: center;
+  font-family: 'Bebas Neue';
+  font-size: 75px;
+  color: white;
+}
+
+
+.movingImage
+{
+  height: 100vh;
+  background-image: url("../img/words.png");
+  overflow: hidden;
+  animation: movingNames 85s linear infinite;
+}
+@keyframes movingNames {
+    0%
+    {
+      background-position: 0 0;
+    }
+
+    100%
+    {
+      background-position: -1920px 0;
+    }
+}
+
+.movingImage div
+{
+  padding-top: 80%;
+}
+.movingImage h2
+{
+  font-family: 'Bebas Neue';
+  font-size: 75px;
+  color: red;
+  text-align: center;
+  padding: 30px;
+  background-color: rgb(255, 255, 255, .9);
+}
+
+.gridImages
+{
+  width: 100%;
+  height: 260vh;
+  display: grid;
+  grid-template-rows: 15% 15% 15% 15% 15% 15% 15% 15% 15%;
+  grid-row-gap: 20px;
+}
+.gridImages div img
+{
+  width: 100%;
+}
+.whiteBox
+{
+  margin: 0;
+  padding: 20px;
+  background-color: white;
+}
+
+.gridVideos
+{
+  width: 100%;
+  height: 250vh;
+  display: grid;
+  grid-auto-rows: 25% 25% 25% 25%;
+}
+
+
+.footer
+{
+    height: 20vh;
+    background-color: #999999;
+}
+.footer div
+{
+
+  width: 100%;
+  margin:  auto;
+  color: white;
+
+}

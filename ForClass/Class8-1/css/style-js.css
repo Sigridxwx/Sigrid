@@ -1,0 +1,66 @@
+body
+{
+    background-color: #e6e6e6;
+}
+
+h1
+{
+  margin: 70px;
+}
+.container
+{
+  width: 60%;
+  height: 100vh;
+  margin: auto;
+  padding: 150px;
+  background-color: white;
+
+}
+
+.grid
+{
+  width: 100%;
+  height: 40vh;
+  margin: auto;
+  margin-top: 140px;
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 15px;
+}
+
+.button
+{
+  background-color: #76e1ec;
+  padding: 20px;
+  text-decoration: none;
+  font-family: sans-serif;
+  color: white;
+}
+
+.button2
+{
+  background-color: pink;
+  padding: 20px;
+  text-decoration: none;
+  font-family: sans-serif;
+  color: white;
+}
+
+.hi
+{
+  background-color: #76e1ec;
+  padding: 20px;
+  text-decoration: none;
+  font-family: sans-serif;
+  color: white;
+}
+
+.hello
+{
+  background-color: pink;
+  padding: 20px;
+  text-decoration: none;
+  font-family: sans-serif;
+  color: white;
+}

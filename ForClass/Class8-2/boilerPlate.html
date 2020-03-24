@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Boiler Plate</title>
+    <meta name="author" content="Jose Guzman">
+    <meta name="content" content="Boiler Plate for anybody who wants to create a nice website">
+    <meta name="keywords" content="HTML, CSS, Responsive, boiler plate">
+    <!-- This stylesheet won't activate until the screens gets wider than 501 px -->
+    <link rel="stylesheet" media="only screen and (min-width: 501px)" href="css/desktopBoiler.css">
+    <!-- This stylesheet won't activate until the screens gets smaller than 500px; -->
+    <link rel="stylesheet" media="only screen and (max-width: 500px)" href="css/mobileBoiler.css">
+    <!-- The viewport meta tag won't let the browser to scale down my website -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- HEADER -->
+    <header class="header">
+      <!-- This would be my logo -->
+      <h1>Title Website</h1>
+      <!-- This is my navigation -->
+      <nav>
+          <ul>
+            <li> <a href="../Class7-1/responsiveGrid.html">ResponsiveGrid</a> </li>
+            <li> <a href="../Class6-2/grid.html">Grid</a> </li>
+          </ul>
+      </nav>
+      <!-- End of my navigation -->
+    </header>
+    <!-- END HEADER -->
+
+
+
+    <!-- MAIN -->
+    <main>
+      <!-- PARALLAX -->
+      <!-- This div has the parallax photo as a background through CSS -->
+      <div class="parallax">
+        <h2>Title</h2>
+      </div>
+        <!-- END PARALLAX -->
+
+      <hr>
+
+      <!-- This div has the moving image as a background through CSS -->
+      <div class="movingImage">
+        <div>
+          <h2>Another Title</h2>
+        </div>
+      </div>
+      <!-- End of moving background -->
+
+      <hr>
+
+      <!-- GRID STARTS  -->
+      <div class="gridImages">
+        <div>
+          <!-- This image is inside <a> tag that's why it can be used as a link when you press it -->
+          <a href="https://www.tourismthailand.org/">
+            <img src="img/thai.jpg" alt="Thai">
+          </a>
+          <!-- End of link with image -->
+          <div class="whiteBox">
+            <p>Some information about the destination</p>
+          </div>
+        </div>
+
+        <div>
+          <img src="img/thai.jpg" alt="Thai">
+          <div class="whiteBox">
+            <p>Some information about the destination</p>
+          </div>
+        </div>
+
+        <div>
+          <img src="img/thai.jpg" alt="Thai">
+          <div class="whiteBox">
+            <p>Some information about the destination</p>
+          </div>
+        </div>
+
+        <div>
+          <img src="img/thai.jpg" alt="Thai">
+          <div class="whiteBox">
+            <p>Some information about the destination</p>
+          </div>
+        </div>
+
+        <div>
+          <img src="img/thai.jpg" alt="Thai">
+          <div class="whiteBox">
+            <p>Some information about the destination</p>
+          </div>
+        </div>
+
+        <div>
+          <img src="img/thai.jpg" alt="Thai">
+          <div class="whiteBox">
+            <p>Some information about the destination</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- END OF THE GRID -->
+
+      <hr>
+
+      <!-- GRID WITH VIDEOS -->
+        <div class="gridVideos">
+
+          <div>
+            <!-- An inline frame is used to embed another document within the current HTML document. -->
+            <!-- You can embed any youtube video and other media aswell -->
+              <iframe width="100%" height="100%"  src="https://www.youtube.com/embed/0QlecDOWHmY?start=10"
+              frameborder="0" allow="accelerometer; autoplay; encrypted-media;
+              gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div>
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/AIdslaUj9wg?start=10"
+            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+          </div>
+          <div>
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Pt49y1gm0jw?start=10"
+            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+          </div>
+          <div>
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/NnOEfgl_k9w?start=134"
+            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+          </div>
+
+        </div>
+      <!-- END OF GRID WITH VIDEOS -->
+
+    </main>
+    <!-- END MAIN -->
+    <hr>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div>
+            <small>Copyrigth information</small>
+      </div>
+    </footer>
+    <!-- END FOOTER -->
+
+  </body>
+</html>

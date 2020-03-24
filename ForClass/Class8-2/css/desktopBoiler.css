@@ -1,0 +1,214 @@
+/* STYLE FOR MY BODY  */
+
+body
+{
+  margin: 0px;
+  background-color: #303030;
+}
+
+hr
+{
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+/* END OF BODY STYLE */
+
+/* ------------------------------------------------------------ */
+
+
+/* MY HEADER WITH NAVIGATION */
+
+/* THE BLACK BOX WITH TRANSPARENCY */
+.header
+{
+  height: 10vh;
+  width: 100%;
+  /* WHEN YOU USE RGB YOU CAN ADD A FOURTH VALUE. THE ALPHA OR OPACITY */
+  background-color: rgb(42, 42, 42, .7);
+  /* POSITION CAN BE USED IN DIFFERENT WAYS. FIXED WILL KEEP YOUR CONTENT IN THE VIEWPORT */
+  position: fixed;
+  top: 0px;
+  /* THE Z-INDEX WILL LET YOU CHOOSE THE ORDER OF YOUR ELEMENTS IN THIS CASE
+  IT WILL POSITION ABOVE EVERYTHING */
+  z-index: 1000;
+}
+.header h1
+{
+    width: 50%;
+    margin: 0px;
+    left: 5%;
+    top: 25%;
+    position: relative;
+    color: white;
+    font-family: 'Bebas Neue';
+}
+.header ul
+{
+  float: right;
+  width: 40%;
+  list-style-type: none;
+  margin-top: -15px;
+}
+.header nav ul li
+{
+  display: inline;
+  margin: 30px;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+.header nav ul li a
+{
+  color: white;
+  text-decoration: none;
+}
+
+/* END OF MY HEADER WITH NAVIGATION */
+
+
+/* ------------------------------------------------------------ */
+
+
+
+/* PARALLAX EFFECT */
+
+.parallax
+{
+  margin-top: 10vh;
+  height: 80vh;
+  /* YOU CAN ATTACH YOUR IMAGE TO THE BACKGROUND OF YOUR ELEMENTS */
+  background-image: url("../img/landscape.jpg");
+  background-size: 100% auto;
+  /* THIS IS WHAT IT MAKES YOUR IMAGE FIXED TO THE BACKGROUND INSTEAD
+   OF MOVING WITH YOUR OTHER ELEMENTS */
+  background-attachment: fixed;
+  /* PLACE THE IMAGE IN THE MIDDLE */
+  background-position: top center;
+}
+
+.parallax h2
+{
+  /* BE IN THE MIDDLE */
+  margin: auto;
+  /* PUT SOME SPACE ON TOP OF THE TITLE SO IT CAN BE IN THE MIDDLE OF THE IMAGE */
+  padding-top: 15%;
+  text-align: center;
+  font-family: 'Bebas Neue';
+  font-size: 75px;
+  color: white;
+}
+
+/* END OF PARALLAX EFFECT */
+
+
+
+/* ------------------------------------------------------------ */
+
+
+
+/* MOVING IMAGE BACKGROUND */
+
+.movingImage
+{
+  height: 100vh;
+  background-image: url("../img/words.png");
+  overflow: hidden;
+  /* ANIMATION WILL AFFECT THE ELEMENTS WE DECLARE IN OUR KEYFRAMES */
+  animation: movingNames 85s linear infinite;
+  /* NAME OF OUR ANIMATION * TIME WILL TAKE * TYPE OF ANIMATION * MAKE IT A LOOP */
+}
+/* THIS WILL MAKE THE IMAGE MOVE IN THEIR BACKGROUND POSITION */
+@keyframes movingNames {
+    /* THIS IS A KEYFRAME, YOU CAN ADD AS MANY AS YOU WANT FROM 0 TO 100 */
+    0%
+    {
+      background-position: 0 0;
+    }
+
+    100%
+    {
+      background-position: -1920px 0;
+    }
+}
+
+.movingImage div
+{
+  padding-top: 15%;
+}
+.movingImage h2
+{
+  font-family: 'Bebas Neue';
+  font-size: 75px;
+  color: red;
+  text-align: center;
+  padding: 30px;
+  background-color: rgb(255, 255, 255, .9);
+}
+
+/* END MOVING IMAGE BACKGROUND */
+
+/* ------------------------------------------------------------ */
+
+/* GRID IMAGES */
+
+.gridImages
+{
+  width: 70%;
+  height: 100vh;
+  margin: auto;
+  display: grid;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 5px;
+  grid-column-gap: 30px;
+}
+.gridImages div img
+{
+  width: 100%;
+}
+.whiteBox
+{
+  margin: 0;
+  padding: 10px;
+  background-color: white;
+  font-size: 12px;
+}
+
+/* END GRID IMAGES */
+
+
+/* ------------------------------------------------------------ */
+
+
+/* GRID VIDEOS */
+
+.gridVideos
+{
+  width: 80%;
+  height: 90vh;
+  margin: auto;
+  display: grid;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+/* END GRID VIDEOS */
+
+
+/* ------------------------------------------------------------ */
+
+
+.footer
+{
+    height: 20vh;
+    background-color: #999999;
+}
+.footer div
+{
+
+  width: 100%;
+  margin:  auto;
+  color: white;
+
+}
