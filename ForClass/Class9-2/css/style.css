@@ -1,0 +1,225 @@
+
+body{
+  margin: 20px;
+  font-family: sans-serif;
+  background-color: #d6d6d6;
+
+}
+
+
+
+.gridMain
+{
+  width: 80%;
+  height: 90vh;
+  margin: auto;
+  display: grid;
+  grid-template-areas:
+    "na na na"
+    "ma ma ma"
+    "fo fo fo";
+  grid-template-rows: .2fr 1fr .4fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.gridMain nav
+{
+  grid-area: na;
+  background-color: #f1f1f1;
+  border-bottom: .5px solid #8e8e8e;
+}
+
+.gridMain main
+{
+  grid-area: ma;
+  background-color: #e2e2e2;
+}
+
+.gridMain footer
+{
+  grid-area: fo;
+  background-color: #f1f1f1;
+}
+
+.gridContent
+{
+  width: 95%;
+  height: 90%;
+  margin: 0 auto;
+  padding: 15px;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.gridContent div
+{
+  border-left: .5px solid #8e8e8e;
+}
+.gridContent div:first-child
+{
+  border-left: none;
+}
+.gridContent div:first-child p
+{
+  font-size: 14px;
+  padding: 5px;
+  border-left: none;
+}
+.gridContent div:nth-child(2) p
+{
+  font-size: 14px;
+  padding: 5px;
+}
+
+.gridContent div:nth-child(3)
+{
+  font-size: 25px;
+  padding: 10px;
+  text-align: center;
+  padding-top: 50%;
+}
+.gridContent div:nth-child(4)
+{
+  padding-top: 25%;
+}
+
+.box
+{
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background-color: pink;
+}
+
+
+
+
+
+nav ul
+{
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+  align-content: center;
+  list-style-type: none;
+  font-size: 0;
+}
+
+nav ul li
+{
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+nav ul li a
+{
+  display: inline-block;
+  width: 20%;
+  height: 100%;
+  font-family: sans-serif;
+  color: #8e8e8e;
+  font-size: 18px;
+  text-align: center;
+  line-height: 5;
+  text-decoration: none;
+  transition: background .3s;
+}
+
+nav ul li a:hover
+{
+  background-color: #d5d5d5;
+}
+
+
+footer p
+{
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+}
+
+
+hr
+{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+
+/* ----------------------  DEbug# 4 ----------------------------- */
+
+h1
+{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+.gridBug
+{
+  width: 80%;
+  margin: auto;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: .2fr 1fr;
+  background-color: #f1f1f1;
+}
+
+.smallGridBug
+{
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.smallGridBug div p
+{
+  font-size: 14px;
+  padding: 25px;
+}
+
+
+
+/* -------------- Buttons -------------- */
+
+.gridBug div ul
+{
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+  align-content: center;
+  list-style-type: none;
+  font-size: 0;
+}
+
+.gridBug div ul li
+{
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+.gridBug div ul li a
+{
+  display: inline-block;
+  width: 20%;
+  height: 100%;
+  font-family: sans-serif;
+  color: #8e8e8e;
+  font-size: 18px;
+  text-align: center;
+  line-height: 5;
+  text-decoration: none;
+  transition: background .3s;
+}
+
+.gridBug div ul li a:hover
+{
+  background-color: #d5d5d5;
+}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>jQuery</title>
+    <meta name="author" content="Jose Guzman">
+    <meta name="content" content="Introduction to jQuery and layouts with grid Fontawesome">
+    <meta name="keywords" content="Jquery GRID CSS HTML">
+    <link rel="stylesheet" href="css/jQueryStyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Raleway:300i,400,700|Roboto:300i,400,700&display=swap" rel="stylesheet">
+    <!-- This is my personal link for fontawesome, if you want to create yours go the the fontAwesome website -->
+    <script src="https://kit.fontawesome.com/bccf1ad210.js" crossorigin="anonymous"></script>
+    <!-- This is the jquery absolute link. With this you can start using jQuery on your website -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- This is the link to my jQuery file -->
+    <script type="text/javascript" src="js/jQuery.js"></script>
+  </head>
+
+  <body id="Body" class="dark">
+
+    <div class="mainGrid">
+
+      <nav>
+        <ul>
+          <li><a id="FadeO" href="#">FadeOut <i class="fas fa-ghost"></i></a></li>
+          <li><a id="FadeI" href="#">FadeIn <i class="fas fa-magic"></i></a></li>
+          <li><a id="Light" href="#">Light <i class="fas fa-lightbulb"></i></a></li>
+          <li><a id="Dark" href="#">Dark <i class="fas fa-moon"></i></a></li>
+        </ul>
+      </nav>
+
+
+        <header class="fade">
+          <h2>Hello!</h2>
+          <div class="message">
+            <p>This page uses <span>Fontawesome!</span><br><br>
+              Go to their website and check it out!<br><br>
+              <a class="link" href="https://fontawesome.com/"><i class="fab fa-font-awesome-flag fa-3x"></i></a> </p>
+          </div>
+        </header>
+
+        <main class="fade">
+          <h2>jQuery</h2>
+          <div class="text a">
+            <p>jQuery is a library (collection of code) designed to facilitate working with the
+              <a class="link" href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction">DOM</a>. <br><br>
+              To work with jquery you need to include the jquery library in your html code using the <span class="accent">&lt;script&gt;</span>
+              tag and then write your own javascript/jquery commands inside another script tag.</p>
+          </div>
+          <div class="text b">
+            <p><span class="accent">Remote Version</span>
+              You can use a absolute link to link your jquery file to a hosted jquery version. The advantage of remotely linking to jquery is that it allows
+              you to easily upgrade to newer versions of jquery. Your setup is much easier. A disadvantage is if the server where the jquery file is hosted
+              goes down, then your jquery will not work.
+                <br><br>
+                <code>
+                &lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"&gt;&lt;/script&gt;
+                </code>
+            </p>
+          </div>
+          <div class="text c">
+            <p>
+              <span class="accent">Getting Started</span>
+              The placement of the your jquery version and your own script should be placed in the head or right before the body tag closes.
+                <br><br>
+              <code>
+                &lt;script src="js/jquery-3.3.1.min.js"&gt;&lt;/script&gt;
+              </code>
+                <br><br>
+              <code>
+                &lt;script&gt; type="text/javascript" src="Path to your JS" &lt;/script&gt;
+              </code>
+                  <br><br>
+              Inside your js file you start with this line of code
+              <code>
+                  <br><br>
+                    $(document).ready(function(){
+                        <br><br>
+                          //all js goes in here
+                        <br><br>
+                    });
+              </code>
+            </p>
+          </div>
+          <div class="text d">
+            <p>
+              <span class="accent">.click();</span>
+              <br><br>
+              <code>$( "#target" ).click(function() {</code><br>
+                console.log(“hello”); <br>
+              <code>});</code>
+              <br><br>
+              <span class="accent">.show() .hide();</span>
+              <br><br>
+              <code>$("#clickBox").show();</code>
+              <code>$("#clickBox").hide();</code>
+              <br><br>
+              <span class="accent">.toggle();</span>
+              <br><br>
+              <code>$("#toggleBox").toggle(1000);</code><br>
+              Display or hide the matched elements
+            </p>
+          </div>
+          <div class="text e">
+            <p>
+              <span class="accent">.addClass();</span>
+              <br><br>
+              <code>$("#myId").addClass( "yourClass" );</code>
+              <br><br>
+              //multiple classes
+              <br><br>
+              <code>$("#myId").addClass( "yourClass anotherClass" );</code>
+              <br><br>
+              Allows you to append a class to a given element
+              <br><br>
+              <span class="accent">.removeClass();</span>
+              <br><br>
+              <code>$("#myId").removeClass( "yourClass" );</code>
+              <br><br>
+              //add and remove at the same time
+              <br><br>
+              <code>$("#myId").addClass( "yourClass" ).removeClass( "anotherClass" );</code>
+              <br><br>
+              Allows you to remove a class from a given element
+            </p>
+          </div>
+          <div class="text f">
+            <p>
+              <span class="accent">.fadeOut() & .fadeIn()</span>
+              <br><br>
+              <code> $("#myDiv").fadeOut(1000);</code><br>
+                Fades out in 1000 milliseconds.
+            </p>
+          </div>
+        </main>
+
+        <aside class="fade">
+          <h2>Menu Box</h2>
+          <ul>
+            <li><a href="#">a</a></li>
+            <li><a href="#">b</a></li>
+            <li><a href="#">c</a></li>
+            <li><a href="#">d</a></li>
+            <li><a href="#">e</a></li>
+            <li><a href="#">f</a></li>
+          </ul>
+        </aside>
+
+        <footer class="fade">
+          <h2>Resources:</h2>
+          <div class="message">
+              <p>
+                Class Website: <br>
+                <a class="link" href="https://github.com/UMInteractive/Weblab/blob/master/notes/6-Javascript.md"><i class="far fa-window-maximize"></i> Class</a><br><br>
+                MDN Docs: <br>
+                <a class="link" href="https://developer.mozilla.org/en-US/docs/Glossary/jQuery"><i class="far fa-window-maximize"></i> Intro jQuery</a><br><br>
+                jQuery Syntax: <br>
+                <a class="link" href="https://www.w3schools.com/jquery/jquery_syntax.asp"><i class="far fa-window-maximize"></i> Syntax</a>
+              </p>
+          </div>
+        </footer>
+
+
+    </div>
+    <!-- End of Main Grid -->
+
+
+
+  </body>
+
+</html>

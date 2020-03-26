@@ -1,0 +1,317 @@
+body
+{
+  margin: 8px;
+}
+.light
+{
+  font-family: 'Roboto';
+  color: #2e2e2e;
+  background-color: #cccccc;
+}
+.dark
+{
+  background-color: #1F263C;
+  color: white;
+  font-family: 'Roboto';
+}
+.dark a
+{
+  color: white;
+  font-family: 'Roboto';
+}
+.light a
+{
+  color: black;
+  font-family: 'Roboto';
+}
+h2
+{
+  margin: 0;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+p
+{
+  color: #909AB6;
+}
+
+/* ---------- Grid System  ---------- */
+
+.mainGrid
+{
+  width: 70%;
+  height: 100vh;
+  margin: auto;
+  display: grid;
+  grid-template-columns: .8fr 1.4fr .8fr;
+  grid-template-rows: .3fr 1fr 1fr 1fr 1fr .9fr;
+  grid-template-areas:
+        "nav nav nav"
+        "sid ma he"
+        "sid ma he"
+        "sid ma he"
+        ". ma foo"
+        ". ma foo" ;
+      grid-row-gap: 30px;
+      grid-column-gap: 30px;
+}
+
+.dark .mainGrid header
+{
+  border-radius: 5px;
+  background-color: #394363;
+  grid-area: he;
+}
+.dark .mainGrid nav
+{
+  border-radius: 5px;
+  background-color: #394363;
+  grid-area: nav;
+}
+.dark .mainGrid aside
+{
+  border-radius: 5px;
+  background-color: #394363;
+  grid-area: sid;
+}
+.dark .mainGrid main
+{
+  border-radius: 5px;
+  background-color: #394363;
+  grid-area: ma;
+}
+.dark .mainGrid footer
+{
+  border-radius: 5px;
+  background-color: #394363;
+  grid-area: foo;
+}
+
+.light .mainGrid header
+{
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  grid-area: he;
+}
+.light .mainGrid nav
+{
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  grid-area: nav;
+}
+.light .mainGrid aside
+{
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  grid-area: sid;
+}
+.light .mainGrid main
+{
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  grid-area: ma;
+}
+.light .mainGrid footer
+{
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  grid-area: foo;
+}
+
+/* ----------  End Grid System  ---------- */
+
+/* ----------   Navigation  ---------- */
+
+
+.mainGrid nav ul
+{
+  margin: 0;
+  padding: 0;
+  line-height: 70px;
+  font-size: 0;
+}
+
+.mainGrid nav ul li
+{
+  margin: 0px;
+  padding: 0px;
+  display: inline;
+}
+
+.dark .mainGrid nav ul li a
+{
+  display: inline-block;
+  width: 150px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  transition: background .3s;
+}
+.dark .mainGrid nav ul li a:hover
+{
+  text-decoration: none;
+  background-color: #505A7A;
+  border-bottom: 4px solid #22A8AA;
+}
+.light .mainGrid nav ul li a
+{
+  display: inline-block;
+  width: 150px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  transition: background .3s;
+}
+.light .mainGrid nav ul li a:hover
+{
+  text-decoration: none;
+  background-color: #cccccc;
+  border-bottom: 4.5px solid #22A8AA;
+}
+
+/* ----------   End Navigation  ---------- */
+
+/* ----------   Menu  ---------- */
+
+.dark aside h2
+{
+  background-color: #22A8AA;
+}
+.light aside h2
+{
+  color: white;
+  background-color: #22A8AA;
+}
+aside ul
+{
+  list-style-type: none;
+  padding-left: 0px;
+  margin: 0px;
+}
+aside ul li
+{
+  height: 57px;
+  position: relative;
+}
+.dark aside ul li a
+{
+  display: block;
+  width: 100%;
+  line-height: 57px;
+  text-align: center;
+  text-decoration: none;
+  border-bottom: 1px solid #1F263C;
+  transition: background .3s;
+}
+.dark aside ul li a:hover
+{
+  background-color: #505A7A;
+  border-top: 1px solid #1F263C;
+}
+.light aside ul li a
+{
+  display: block;
+  width: 100%;
+  line-height: 57px;
+  text-align: center;
+  text-decoration: none;
+  border-bottom: 1px solid #c7c7c7;
+  transition: background .3s;
+}
+.light aside ul li a:hover
+{
+  background-color: #cccccc;
+  border-top: 1px solid #22A8AA;
+  border-bottom: 1px solid #22A8AA;
+}
+
+
+
+
+/* ----------   End Menu  ---------- */
+
+/* ----------   Header  ---------- */
+
+
+.message
+{
+   width: 70%;
+   margin: 0 auto;
+   text-align: center;
+   font-size: 12pt;
+}
+.dark .message span
+{
+  color: white;
+}
+.light .message span
+{
+  color: black;
+}
+
+/* ----------   End Header  ---------- */
+
+/* ----------   Main  ---------- */
+
+.text
+{
+  width: 90%;
+  margin: 0 auto;
+  font-size: 12pt;
+  word-break:break-word;
+}
+.text p
+{
+  font-weight: 300;
+}
+.dark .accent
+{
+  color: white;
+}
+.light .accent
+{
+  color: black;
+}
+.dark .link
+{
+  text-decoration: none;
+  color: #22A8AA;
+  transition: color .3s;
+}
+.dark .link:hover
+{
+  color: #098f91;
+}
+.light .link
+{
+  text-decoration: none;
+  color: #22A8AA;
+  transition: color .3s;
+}
+.light .link:hover
+{
+  color: #098f91;
+}
+
+
+/* ----------   End Main  ---------- */
+
+/* ----------   Footer  ---------- */
+
+
+
+
+
+
+
+
+
+
+/* ----------   End Footer  ---------- */
