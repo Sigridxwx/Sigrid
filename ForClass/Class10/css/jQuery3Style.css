@@ -1,0 +1,143 @@
+
+body
+{
+  background-color: #e0e0e0;
+}
+
+
+.grid
+{
+  width: 80%;
+  height: 230vh;
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas:
+  "he he he"
+  ". na ."
+  "ma ma ma"
+  "fo fo fo"
+  ;
+
+  grid-template-rows: .3fr .2fr 1fr .1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 20px;
+}
+
+.grid header
+{
+  background-color: white;
+  grid-area: he;
+  box-shadow: 4px 4px 10px #8c8c8c;
+}
+
+.grid nav
+{
+  grid-area: na;
+  background-color: white;
+  box-shadow: 4px 4px 10px #8c8c8c;
+}
+.grid main
+{
+  grid-area: ma;
+  background-color: white;
+  box-shadow: 4px 4px 10px #8c8c8c;
+}
+.grid footer
+{
+  grid-area: fo;
+  background-color: white;
+  box-shadow: 4px 4px 10px #8c8c8c;
+}
+.gridImages
+{
+  width: 70%;
+  margin: 0 auto;
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+}
+.gridImages a img
+{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+
+/* ---------------------------------------- Debug  # 5----------------------------------------- */
+.navButtons
+{
+width: 90%;
+margin: 0 auto;
+height: 100%;
+}
+.navButtons a {
+  display: inline-block;
+  width: 32%;
+  line-height: 8;
+  text-align: center;
+  text-decoration: none;
+  color: #7d7d7d;
+  transition: color .3s;
+}
+.navButtons a:hover {
+  color: black;
+}
+
+.gridDebug
+{
+  width: 80%;
+  height: 110vh;
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas:
+  "he he he"
+  ". na ."
+  "ma ma ma"
+  "fo fo fo"
+  ;
+
+  grid-template-rows: .2fr .2fr 1.2fr .1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 20px;
+}
+
+.gridDebug header
+{
+  background-color: white;
+  grid-area: he;
+  box-shadow: 4px 4px 10px #8c8c8c;
+}
+
+.gridDebug nav
+{
+  grid-area: na;
+  background-color: white;
+  box-shadow: 4px 4px 10px #8c8c8c;
+}
+.gridDebug main
+{
+  grid-area: ma;
+  background-color: white;
+  box-shadow: 4px 4px 10px #8c8c8c;
+}
+.gridDebug footer
+{
+  grid-area: fo;
+  background-color: white;
+  box-shadow: 4px 4px 10px #8c8c8c;
+}
+.gridImages
+{
+  width: 70%;
+  margin: 0 auto;
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+}
+.gridImages a img
+{
+  width: 100%;
+  margin-bottom: 10px;
+}

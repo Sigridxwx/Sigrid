@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>jQuery3</title>
+    <meta name="author" content="Jose Guzman">
+    <meta name="content" content="This is an introduction for jQuery">
+    <meta name="keywords" content="jQuery CSS HTML">
+    <link rel="stylesheet" href="css/jQuery3Style.css">
+      <!-- Jquery script source -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <!-- stylesheet and pluging for Fancybox -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <!-- This is the link for my own jQuery -->
+    <script src="js/jQuery3.js" type="text/javascript"></script>
+  </head>
+  <body>
+
+    <div class="grid">
+
+      <header>
+          This is my Header
+      </header>
+
+      <nav>
+          This is my Nav
+      </nav>
+
+      <main>
+        <div class="gridImages">
+
+          <div>
+            <a data-fancybox="mecha" data-caption="Robot #1"  href="img/big/1.jpg"> <img src="img/small/1.jpg" alt="Robot #1"> </a>
+            <a data-fancybox="mecha" data-caption="Robot #2"  href="img/big/2.png"> <img src="img/small/2.png" alt="Robot #2"> </a>
+            <a data-fancybox="mecha" data-caption="Robot #3"  href="img/big/3.png"> <img src="img/small/3.png" alt="Robot #3"> </a>
+          </div>
+          <div>
+            <a data-fancybox="mecha" data-caption="Robot #4"  href="img/big/4.jpg"> <img src="img/small/4.jpg" alt="Robot #4"> </a>
+            <a data-fancybox="mecha" data-caption="Robot #5"  href="img/big/6.jpg"> <img src="img/small/6.jpg" alt="Robot #5"> </a>
+            <a data-fancybox="mecha" data-caption="Robot #6"  href="img/big/7.jpg"> <img src="img/small/7.jpg" alt="Robot #6"> </a>
+          </div>
+          <div>
+            <a data-fancybox="mecha" data-caption="Robot #7"  href="img/big/8.jpg"> <img src="img/small/8.jpg" alt="Robot #7"> </a>
+            <a data-fancybox="mecha" data-caption="Robot #8"  href="img/big/9.jpg"> <img src="img/small/9.jpg" alt="Robot #8"> </a>
+            <a data-fancybox="mecha" data-caption="Robot #9"  href="img/big/10.jpg"> <img src="img/small/10.jpg" alt="Robot 9#"> </a>
+          </div>
+
+        </div>
+
+
+      </main>
+
+      <footer>
+          This is my Footer
+      </footer>
+
+    </div>
+
+
+    <hr>
+
+
+    <div class="gridDebug" id="Debug5">
+
+      <!-- Debug the 2 errors on the ids from this Debug -->
+
+      <header>
+          Debug # 5
+      </header>
+
+      <nav>
+        <!-- Here's one: -->
+        <div class="navButtons">
+        <a id="button1" href="#Debug5">Click Me!!</a>
+        <a id="button2" href="#Debug5">Click Me!!</a>
+        <a id="button3" href="#Debug5">Click Me!!</a>
+        </div>
+
+      </nav>
+
+      <main>
+        <div id="set1" class="gridImages">
+          <a data-fancybox="robot1Group" data-caption="Robot #1"  href="img/big/1.jpg"> <img src="img/small/1.jpg" alt="Robot #1"> </a>
+          <a data-fancybox="robot1Group" data-caption="Robot #2"  href="img/big/2.png"> <img src="img/small/2.png" alt="Robot #2"> </a>
+          <a data-fancybox="robot1Group" data-caption="Robot #3"  href="img/big/3.png"> <img src="img/small/3.png" alt="Robot #3"> </a>
+        </div>
+        <div id="set2" class="gridImages">
+          <a data-fancybox="robot2Group" data-caption="Robot #4"  href="img/big/4.jpg"> <img src="img/small/4.jpg" alt="Robot #4"> </a>
+          <a data-fancybox="robot2Group" data-caption="Robot #5"  href="img/big/6.jpg"> <img src="img/small/6.jpg" alt="Robot #5"> </a>
+          <a data-fancybox="robot2Group" data-caption="Robot #6"  href="img/big/7.jpg"> <img src="img/small/7.jpg" alt="Robot #6"> </a>
+        </div>
+        <!-- Here's the other one: -->
+        <div id="set3" class="gridImages">
+          <a data-fancybox="robot3Group" data-caption="Robot #7"  href="img/big/8.jpg"> <img src="img/small/8.jpg" alt="Robot #7"> </a>
+          <a data-fancybox="robot3Group" data-caption="Robot #8"  href="img/big/9.jpg"> <img src="img/small/9.jpg" alt="Robot #8"> </a>
+          <a data-fancybox="robot3Group" data-caption="Robot #9"  href="img/big/10.jpg"> <img src="img/small/10.jpg" alt="Robot 9#"> </a>
+        </div>
+
+
+      </main>
+
+      <footer>
+          This is my Footer
+      </footer>
+
+    </div>
+
+
+
+
+  </body>
+</html>
