@@ -108,6 +108,8 @@ $("#set6").mouseleave(function(){
 $(".gridContent6").hide();
 });
 
-
+$("#set6").mouseover(function(){
+$(".gridContent6").show();
+});
 
 });  //This is the end of the document ready function

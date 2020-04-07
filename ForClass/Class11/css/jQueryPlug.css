@@ -1,0 +1,88 @@
+
+/* Background for sections in PagePiling */
+.fancybox
+{
+  background-color: lightblue;
+}
+.lettering
+{
+  background-color: lightgreen  ;
+}
+.pagePiling
+{
+  background-color: pink;
+}
+/* Background for sections in PagePiling */
+
+
+
+
+
+
+/* ----------  FancyBox grid Images-------------- */
+.gridImages
+{
+  width: 30%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+}
+.gridImages a img
+{
+  width: 100%;
+  margin-bottom: 10px;
+  box-shadow: 1.5px 2px 4px #3d3d3d;
+}
+
+/* ----------  FancyBox grid Images-------------- */
+
+
+
+
+
+
+/* ---------------------  Lettering ------------------ */
+.fancyTitle
+{
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  padding: 20px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+.fancyTitle .line1
+{
+  font-size: 68px;
+  text-transform: uppercase;
+  display: block;
+  letter-spacing: 4px;
+}
+.fancyTitle .line2
+{
+  font-size: 38px;
+  font-weight: lighter;
+  text-transform: lowercase;
+  display: block;
+  font-style: italic;
+  margin-bottom: 8px;
+}
+.fancyTitle .line3
+{
+  font-size: 20px;
+  text-transform: uppercase;
+  display: block;
+  line-height: 34px;
+}
+
+.usage
+{
+  width: 40%;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+}
+
+
+/* ---------------------  Lettering ------------------ */

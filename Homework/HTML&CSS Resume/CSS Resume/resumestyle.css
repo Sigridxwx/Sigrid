@@ -1,3 +1,9 @@
+body{
+  background-color: pink;
+}
+
+
+
 h1
 {
   color:white;
@@ -5,12 +11,11 @@ h1
   font-family: "Bebas Neue";
   font-size: 40px;
   border-radius:10px;
-
+  text-align: center;
 }
 h2
 {
 color:white;
-font-family: "trebuchet MS";
 font-size: 22px;
 border-radius:5px;
 }
