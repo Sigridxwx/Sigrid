@@ -1,0 +1,131 @@
+  /* Basic Style for my website */
+body
+{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+ul
+{
+  margin: 0;
+  padding: 0;
+}
+
+  /* Basic Style for my website */
+
+/* --------------  background ---------------- */
+
+
+.bg
+{
+  width: 100%;
+  height: 100vh;
+}
+.ads
+{
+ width: 50%;
+ margin: auto;
+ height: 40vh;
+ line-height: 6;
+}
+/* --------------  background ---------------- */
+
+/* --------------    Icons     ---------------- */
+.icons
+{
+  width: 100%;
+  margin:0 auto;
+  line-height: 50px;
+  font-size: 0;
+}
+.icons li
+{
+  margin: 0px;
+  padding: 0px;
+  display: inline;
+}
+.icons li a
+{
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+  font-size: 16px;
+}
+.icons li a i
+{
+  width: 20%;
+  padding: 20px;
+  color: white;
+  border: 1px solid white;
+  transition: border-radius .3s, border-color .3s, color .3s, transform .3s ease-out;
+}
+/* Twitter */
+.icons li:first-child:hover i
+{
+  color: #23b4e9;
+  border-radius: 100%;
+  border-color: #23b4e9;
+  transform: translateY(-20px)
+}
+/* Facebook */
+.icons li:nth-child(2):hover i
+{
+  color: #2a87dd;
+  border-radius: 100%;
+  border-color:#2a87dd;
+  transform: translateY(-20px)
+}
+/* Instagram */
+.icons li:nth-child(3):hover i
+{
+  color: #ff7a00;
+  border-radius: 100%;
+  border-color:#ff7a00;
+  transform: translateY(-20px)
+}
+/* Google */
+.icons li:nth-child(4):hover i
+{
+  color: #ee4040;
+  border-radius: 100%;
+  border-color:#ee4040;
+  transform: translateY(-20px)
+}
+
+/* --------------    Icons     ---------------- */
+
+
+/* --------------    Lettering     ---------------- */
+
+/* h1
+{
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 50px;
+  font-family: serif;
+  text-align: center;
+} */
+
+.title
+{
+  margin: 0 auto;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  padding: 0px;
+  line-height: 2;
+  color: white;
+  font-size: 50px;
+  font-family: serif;
+  text-align: center;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+}
+
+
+
+
+
+
+
+/* --------------    Lettering     ---------------- */

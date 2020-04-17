@@ -1,0 +1,68 @@
+.Vacation
+{
+background-image: url(../img/21.PNG);
+}
+
+.content1
+{
+background-color: lightgray;
+}
+.content2
+{
+background-color: lightgray;
+}
+.content3
+{
+background-color: lightyellow;
+}
+.content4
+{
+background-color: lightgray;
+}
+.content5
+{
+background-color: lightyellow;
+}
+
+
+
+
+
+
+
+
+
+.Vacation
+{
+  font-family: 'Permanent Marker', cursive;
+  width: 80%;
+  height: 185vh;
+  margin: 20 auto;
+  font-size: 50px;
+  color: white;
+
+}
+.gridImages
+{
+  width: 80%;
+  margin: 0 auto;
+  padding:0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 10px;
+}
+.gridImages a img
+{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.gridContent1, .gridContent2, .gridContent3, .gridContent4, .gridContent5, .gridContent6
+{
+  color: black;
+  display: inline-block;
+  text-align: left;
+  font-size: 20px;
+  font-family:'Roboto', sans-serif;
+line-height: 35px;
+}

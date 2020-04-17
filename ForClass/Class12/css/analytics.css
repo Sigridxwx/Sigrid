@@ -1,0 +1,31 @@
+body
+{
+  margin: 0;
+  padding: 0;
+}
+.info
+{
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  position: relative;
+}
+.links
+{
+  width: 30%;
+  margin: 0;
+  line-height: 3;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.links a
+{
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+}
