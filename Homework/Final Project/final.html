@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, shrink-to-fit=no">
+
+    <title>Final Project</title>
+    <meta name="author" content="Wenxi Xu">
+    <meta name="content" content="This is a story between me and music">
+    <meta name="keywords" content="Music Story">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!-- Aplayer CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.css">
+<!-- style css -->
+    <link rel="stylesheet" href="css/final.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/lightslider.css">
+
+    <!-- This is the file for lettering js -->
+    <script src="js/jquery.lettering-0.6.1.min.js" type="text/javascript"></script>
+    <!-- This is my fontawesome file -->
+  <script src="https://kit.fontawesome.com/bccf1ad210.js" crossorigin="anonymous"></script>
+  <!-- google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Permanent+Marker&family=Roboto:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+
+    <!-- Jquery script source -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+  <!-- Aplayer Link -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.js"></script>
+  <!-- Bootstrap Link -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <!-- keyboard////// -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.6.10/Tone.js"></script>
+  <!-- This is my own js file to initiate the SLIDER -->
+  <script src="js/final.js" type="text/javascript"></script>
+<!--////////////////////-lightslider ------------->
+<script src="js/JQuery3.3.1.js" type="text/javascript"></script>
+<script src="js/lightslider.js" type="text/javascript"></script>
+
+  </head>
+
+  <body>
+
+    <header>
+
+      <nav>
+        <div class="logo">
+        <h3>Wenxi Xu</h3>
+        </div>
+
+      </nav>
+
+    </header>
+
+    <main>
+
+      <div class="intro">
+
+        <ul class="squares">
+          <li></li>
+        </ul>
+
+        <h2>This is a story about Music</h2>
+
+        <div class="pulse">
+        <span class="scroll">Scroll <i class="fas fa-arrow-down"></i> </span>
+        </div>
+      </div>
+
+<section>
+
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-12">
+              <h3>Favourite Albums and Songs</h3>
+            </div>
+             <div class="col-md-3">
+               <a href="javascript:void();" class="album-poster" data-switch="0">
+                <img src="img/3.jpg" alt="alblum1">
+             </a>
+             <h4>Intention</h4>
+             <p>Justin Bieber</p>
+             </div>
+
+             <div class="col-md-3">
+               <a href="javascript:void();" class="album-poster" data-switch="1">
+                <img src="img/5.jpg" alt="alblum2">
+             </a>
+             <h4>ILYSB</h4>
+              <p>LANY</p>
+
+             </div>
+
+             <div class="col-md-3">
+               <a href="javascript:void();" class="album-poster" data-switch="2">
+                <img src="img/7.jpg" alt="alblum3">
+             </a>
+             <h4>You're On My Mind</h4>
+             <p>Tom Misch</p>
+             </div>
+
+             <div class="col-md-3">
+               <a href="javascript:void();" class="album-poster" data-switch="3">
+                <img src="img/1.jpg" alt="alblum4">
+             </a>
+             <h4>ball w/o you</h4>
+             <p>21 Savage</p>
+             </div>
+
+             <div class="col-md-3">
+               <a href="javascript:void();" class="album-poster" data-switch="4">
+                <img src="img/8.jpg" alt="alblum5">
+             </a>
+             <h4>Nowhere Near</h4>
+             <p>Yo La Tengo</p>
+             </div>
+
+             <div class="col-md-3">
+               <a href="javascript:void();" class="album-poster" data-switch="5">
+                <img src="img/6.jpg" alt="alblum6">
+             </a>
+             <h4>La vie en rose</h4>
+             <p>Louis Armstrong</p>
+             </div>
+
+             <div class="col-md-3">
+               <a href="javascript:void();" class="album-poster" data-switch="6">
+                <img src="img/4.jpg" alt="alblum7">
+             </a>
+             <h4>The Next Best American Records</h4>
+             <p>Lana Del Rey</p>
+             </div>
+
+             <div class="col-md-3">
+               <a href="javascript:void();" class="album-poster" data-switch="7">
+                <img src="img/2.jpg" alt="alblum8">
+             </a>
+             <h4>Killing Me Softly With His Song</h4>
+             <p>Fugees</p>
+             </div>
+
+
+          </div>
+
+        </div>
+    </section>
+
+
+
+  <div id="aplayer"></div>
+
+
+<section>
+  <div class="col-md-12">
+    <h3>Album Introductions</h3>
+  </div>
+  <div  class="grid">
+      <div> <img src="img/1.jpg" alt=""> </div>
+      <div class="paragraph"> The second album from one of Atlanta’s most promising rappers
+        recasts him as a star in waiting. He writes with grisly clarity and humor, and his
+        songs here are sturdy, inventive, and sticky. <br> <br> <br>
+        i am > i was shatters the notion of 21 Savage as a specialist with a narrow purview
+        and audience, and recasts him as a star in waiting, all without forcing him into
+        unflattering contortions. It also cements him as a far more original stylist than
+        other hopefuls from Atlanta, like Lil Baby and Gunna, who appear here together
+        and sound simply like Young Thug disciples. At its best, the album is still
+        weird, like when 21 raps earnestly over Santana, or when he ends with a Young
+        Nudy duet that sounds for all the world like the third act of a Morricone western.
+        That’s the song where 21 sneers at rappers who “drop a mixtape, then they tattoo their face.”
+        It gets at the core idea of his work: You can’t.
+      </div>
+      <div > <img src="img/7.jpg" alt=""> </div>
+      <div class="paragraph"> <br><br> Geography is the debut studio album by English musician
+        Tom Misch. It was self-released on 6 April 2018 through Misch's own label Beyond the Groove.
+        <br><br><br> Misch met Dayes at the launch party for his album, Geography in the summer of
+        2018, but Misch had been a fan of Dayes' work in the band Yussef Kamaal even before that.
+        And strangely, Misch might have seen him play for the first time a decade and a half prior
+        "I actually remember going to a talent show when I was like 7 or something," he recalls.
+        "I remember going to a local school in my area and seeing this guy play drums — he was
+        about 9 at the time. I remember thinking 'This guy's amazing at drums,' and then fast-forward
+        15 years, when I'm working on this record, I realize that guy was Yussef."
+
+      </div>
+      <div > <img src="img/3.jpg" alt=""> </div>
+      <div class="paragraph">
+        Changes is the fifth studio album by Canadian singer Justin Bieber.[2][3] It was released
+        on February 14, 2020, by Def Jam Recordings and RBMG serving as the follow-up to Purpose (2015). <br><br><br>
+        At the center of this whirlwind lies Changes, his first album in four years. On it, Bieber returns
+        to us a wiser man—the emphasis, here, strenuously, on “man.” As of 2018, he is happily married to
+        Hailey Bieber, née Baldwin, model and daughter of Stephen. Bieber is newly sober, newly wed. Now is
+        the time for stubbly beards stroked fondly, for wry smiles at the memories of youthful folly, for a
+        sharp decline in public-urination incidents. But above all, now is time for sex. More precisely, for
+        love-making, of the most grown-up and responsible variety—no giggling, constant eye contact. His fifth
+        studio album is pitched as an invitation to bask in Bieber’s newfound domestic bliss, but while his
+        contentment might be heaven for him and his managers, the resulting album has all the glow and
+        eroticism of an airport terminal.
+      </div>
+      <div> <img src="img/8.jpg" alt=""> </div>
+      <div class="paragraph">
+       Painful is the sixth studio album by American indie rock band Yo La Tengo, released in 1993 by record
+       label Matador, their first for the label. <br><br><br>
+       At the start of The Last Waltz — the Band’s brilliant concert film — there’s a disclaimer:
+       “This film should be played loud!”
+       Such is our relationship with rock music. Much of its power is derived through sheer volume.
+       What’s the first thing we want to do when we hear anything we love on the radio? Turn it up,
+       of course. It’s a natural inclination, to want to hear better the sounds we love. But is volume
+       an essential element of rock music? Can it be powerful without being loud, or rather, without
+       relying on decibels as the main conduit of that power?Instead of trading in volume, Painful posits
+       that rock music can be about taking up space. It doesn’t have to scream at us, but it sure can
+       crowd us, taking up all the air in the room so that we have to pay attention. All the vocals here,
+       even at their most forceful, feel faint, even whispered. Ira Kaplan’s voice is emotive, constantly
+       strained, but rarely shouting.
+      </div>
+  </div>
+  </section>
+
+
+<section id="CARD">
+  <div class="col-md-12">
+    <h3>Jazz Instruments</h3>
+  </div>
+
+<div class="cards">
+  <div class="card">
+    <h3>B</h3>
+    <p>Bass guitar <br> Bass amplifier</p>
+  </div>
+    <div class="card">
+      <h3>C&D</h3>
+      <p>Clarinet <br>Double bass <br>Drum kit </p>
+    </div>
+      <div class="card">
+        <h3>E</h3>
+        <p>Electric guitar</p>
+      </div>
+        <div class="card">
+          <h3>F</h3>
+          <p>Flute <br>French horn <br>Fulcrum grip </p>
+        </div>
+        <div class="card">
+          <h3>G</h3>
+          <p>Gilbson ES-350T <br>Goema <br>Guitar amplifier </p>
+        </div>
+        <div class="card">
+          <h3>H</h3>
+          <p>Hammond organ <br>horn in jazz </p>
+        </div>
+        <div class="card">
+          <h3>J</h3>
+          <p>Jazz-bass, drumming, <br> flute, guitar, <br> piano, trobone, violin</p>
+        </div>
+        <div class="card">
+          <h3>P&R</h3>
+          <p>Piano <br>Rhythm section </p>
+        </div>
+        <div class="card">
+          <h3>S</h3>
+          <p>Saxophone <br>Sitar in jazz </p>
+        </div>
+        <div class="card">
+          <h3>T</h3>
+          <p>Trombone <br>Trumpet </p>
+        </div>
+        <div class="card">
+          <h3>V</h3>
+          <p>Vibraphone</p>
+        </div>
+  </div>
+
+</section>
+
+
+
+
+
+
+<section>
+  <div class="col-md-12">
+    <h3>Influential Jazz Musicians</h3>
+  </div>
+
+<div class="container2">
+  <!---slider- ----------------------->
+  <ul id="autoWidth" class="cs-hidden">
+    <!-- 1///////////////////////// -->
+<li class="item-a">
+<!-- sliderbox -->
+  <div class="box">
+<p class="musician">Duke Ellington</p>
+<img src="img/duke2.png" class="model" alt="">
+
+<div class="details">
+
+<p>An originator of big-band jazz, Duke Ellington was an American composer,
+  pianist and bandleader who composed thousands of scores over his 50-year career.</p>
+</div>
+
+</div>
+</li>
+<!--2 /////////////////////// -->
+<li class="item-a">
+<!-- sliderbox -->
+  <div class="box">
+<p class="musician">Louis Armstrong</p>
+<img src="img/Louis2.png" class="model" alt="">
+
+<div class="details">
+
+<p>American trumpeter, composer, vocalist, and actor who was among the most
+  influential figures in jazz. His career spanned five decades, from the 1920s to
+  the 1960s.</p>
+</div>
+
+</div>
+</li>
+<!-- 3/////////////////////////// -->
+<li class="item-a">
+<!-- sliderbox -->
+  <div class="box">
+<p class="musician">Bessie Smith</p>
+<img src="img/Bessie.png" class="model" alt="">
+
+<div class="details">
+
+<p>American blues singer widely renowned during the Jazz Age. Her powerful, soulful voice won her
+  countless fans and earned her the title "Empress of the Blues."</p>
+</div>
+
+</div>
+</li>
+<!-- 4///////////////////////////// -->
+<li class="item-a">
+<!-- sliderbox -->
+  <div class="box">
+<p class="musician">Charlie Parker</p>
+<img src="img/Charlie3.png" class="model" alt="">
+
+<div class="details">
+
+<p>Charlie Parker was a legendary Grammy Award–winning jazz saxophonist who,
+  with Dizzy Gillespie, invented the musical style called bop or bebop.</p>
+</div>
+
+</div>
+</li>
+<!-- 5///////////////////////////// -->
+<li class="item-a">
+<!-- sliderbox -->
+  <div class="box">
+<p class="musician">Billie Holiday</p>
+<img src="img/Billie.png" class="model" alt="">
+
+<div class="details">
+
+<p>Billie Holiday was one of the most influential jazz singers of all time.
+  She had a thriving career for many years before she lost her battle with addiction.</p>
+</div>
+
+</div>
+</li>
+<!-- 6/////////////////////////// -->
+<li class="item-a">
+<!-- sliderbox -->
+  <div class="box">
+<p class="musician">Benny Goodman</p>
+<img src="img/Benny4.png" class="model" alt="">
+
+<div class="details">
+
+<p>Benny Goodman was a clarinetist and bandleader responsible for multiple hit
+  singles as a band leader before World War II. known as the "King of Swing."</p>
+</div>
+
+</div>
+</li>
+
+  </ul>
+  <!-- slider box -->
+
+</div>
+
+</section>
+
+</main>
+
+
+<footer class="footer">
+  <div class="col-md-12">
+    <h3>Contact Me!</h3>
+  </div>
+    <ul class="icons-footer list-inline">
+
+			<li><a href="https://www.linkedin.com/in/wenxi-xu-23a696181/"><i class="fab fa-linkedin fa-2x myLink fa-inverse"></i> </a></li>
+
+
+			<li><a href="https://github.com/WenxiXu"><i class="fab fa-github fa-2x myLink fa-inverse"></i></a></li>
+
+			<li><a href="https://twitter.com/SigridXwX"><i class="fab fa-twitter fa-2x myLink fa-inverse"></i></a></li>
+
+			<li><a href="https://www.instagram.com/iwannaeatgelato/"><i class="fab fa-instagram fa-2x myLink fa-inverse"></i></a></li>
+
+		</ul>
+  </address>
+</footer>
+
+  </body>
+</html>
